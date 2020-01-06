@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+		<title>Somvid | Contact Us</title>
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="styles/content.css">
+	</head>
+	<body>
+	<header>
+		<p><a href="index.html"><img src="images/logopngimg.png" alt="Town Hall Logo" height="80" width="90"></a></p>
+			<h2>Somvid</h2>
+			<h3>we are happy to serve you</h3>
+	</header>
+	<nav id="nav_menu">
+    	<ul>
+        	<li><a href="index.html">Home</a></li>
+        	<li><a href="about.html">About Us</a></li>
+        	<li><a href="services.html">Services</a></li>
+        	<li><a href="work.html">Work</a>
+            	<ul>
+                	<li><a href="photo.html">Photo Production</a></li>
+                	<li><a href="vid.html">Video Production</a></li>
+            	</ul>
+        	</li>
+        	<li><a href="contact.html" class="concurrent">Contact Us</a></li>
+    	</ul>
+	</nav>
+	<main>
+		<section>
+			<p id="conp"> We are always here to help, please feel free to contact us. All you need is to fill the form bellow</p>
+			<form action="services.html">
+							<fieldset>
+        			<legend>Contact Form</legend>
+        			<label for="first_name">First Name:</label>
+					<input type="text" name="first_name" id="first_name" required><br>
+					<label for="last_name">Last Name:</label>
+					<input type="text" name="last_name" id="last_name" required><br>
+					<label for="email">Email address:</label>
+					<input type="email" name="email" id="email" required=""><br>
+					<label for="city">City:</label>
+					<input type="text" name="city" id="city" required><br>
+					<label for="state">State:</label>
+					<input type="text" name="state" id="state" required maxlength="2" placeholder="2-character code"><br>
+					<label for="zip">ZIP Code:</label>
+					<input type="text" name="zip" id="zip" required placeholder="5 or 9 digits" 
+				           pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits"><br>
+					<label for="phone">Phone Number:</label>
+					<input type="tel" name="phone" id="phone" placeholder="999-999-9999" 
+				       	   pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-9999 format"><br>
+				    <label for="comment">Comment:</label>
+					<textarea name="comments" placeholder="If you have any comments, please enter them here." cols="40.6" rows="5">
+					</textarea>
+				       	   <input type="submit" id="submit"  name="submit" value="Submit">
+				       	   <input type="reset" id="reset" name="resetform"  value="Reset">
+				</fieldset>
+			</form>
+
+
+	</section>
+	<aside>
+	       <nav id="nav_list">
+			<ul>
+			 		<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About US</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="work.html">Work</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>	
+			</nav>
+		</aside>
+</main>
+	<footer>
+			<p>&copy; 2017, Somvid, South Sioux, Ne 68776</p>
+	</footer>
+	</body>	
+</html>

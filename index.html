@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+		<title>Somvid Photo and Video Production</title>
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="styles/main.css">
+		    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>    
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	<script src="javascript/printPage.js"></script>
+	</head>
+	<body>
+		<header>
+		<p><a href="index.html"><img src="images/logopngimg.png" alt="Town Hall Logo" height="80" width="90"></a></p>
+			<h2>Somvid</h2>
+			<h3>we are happy to serve you</h3>
+	</header>
+	<nav id="nav_menu">
+    	<ul>
+        	<li><a href="index.html" class="current">Home</a></li>
+        	<li><a href="about.html">About Us</a></li>
+        	<li><a href="services.html">Services</a></li>
+        	<li><a href="work.html">Work</a>
+            	<ul>
+                	<li><a href="photo.html">Photo Production</a></li>
+                	<li><a href="vid.html">Video Production</a></li>
+            	</ul>
+        	</li>
+        	<li><a href="contact.html">Contact Us</a></li>
+    	</ul>
+	</nav>
+	<main>
+		<section><br />
+            <div class="cycle-slideshow"
+            	data-cycle-timeout="2000"
+            	data-cycle-fx=carousel
+            	data-cycle-pause-on-hover="true"
+            	data-cycle-caption="#alt-caption"
+    			data-cycle-caption-template="{{alt}}"
+    			>
+                <img src="images/sp1.png" alt="Image one" width="455" height="350">
+                <img src="images/sp2.png" alt="Image two" width="455" height="350">
+                <img src="images/sp3.png" alt="Image three" width="455" height="350">
+            </div>
+            
+            <!-- empty element for caption -->
+<div id="alt-caption" class="center"> </div>
+<div id="contact">
+			<h2>Contact Somvid</h2>
+		<p>Contacting us is as easy as going to the <a href="contact.html" target="_blank">Contact Us</a> page or simply <a href="mailto:ahmdamiin1@gmail.com">sending us an Email</a>.</p>
+</div>
+	</section>
+	<aside>
+		<nav id="nav_list">
+			<ul>
+			 		<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About US</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="work.html">Work</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+			</ul>	
+		</nav>
+		<input type="button" id="print" value="Print the Page">
+	</aside>
+</main>
+	<footer>
+		<p>&copy; 2017, Somvid, South Sioux, Ne 68776</p>
+	</footer>
+	</body>	
+</html>
